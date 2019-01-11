@@ -8,10 +8,8 @@
   	<link href="/failure.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Failing from Inline Script</h1>
+    <h1>Failing from 500</h1>
     <p>Expecto</p>
-    <script>
-      throw new Error("Error thrown from inline script");
-    </script>
+    <script src="https://httpstat.us/500"></script>
   </body>
 </html>
